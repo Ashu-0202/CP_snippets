@@ -51,3 +51,15 @@ Technique to transform a tree into an array representation for efficiently answe
 
 *Example*: In competitive programming tasks involving trees, Euler tour can be employed to efficiently handle subtree queries, such as determining the sum or maximum value of nodes within a subtree.
 
+### **6. Topological Sorting**: 
+Orders the vertices of a directed graph such that for every directed edge `u -> v`, vertex u comes before vertex v in the ordering.
+
+*Example*: In problems where we have to tell the sequence in which we should perform some tasks such that if `task t2` depends on `task t1` then t1 is completed before t2.
+
+### **7. Minimum Spanning tree**:
+The Minimum Spanning Tree algorithm is used to find the subset of edges in a connected, undirected graph that connects all the vertices together without any cycles and with the minimum possible total edge weight.
+
+- Prim's Algorithm
+- Kruskal's Algorithm
+
+*Examples*: In competitive programming, MST algorithms are commonly used in problems involving connectivity and optimization, such as finding the minimum cost to connect cities with roads or cables.
